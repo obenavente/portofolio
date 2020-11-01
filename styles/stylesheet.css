@@ -28,8 +28,11 @@ h2 {
   border: 3px solid grey;
   width: 10%;
 }
-h3:hover {
-  background-color: dodgerblue;
+h3 {
+  background-color: firebrick;
+  text-align: center;
+  border: 3px solid grey;
+  width: 10%;
 }
 h4 {
   text-align: center;
@@ -39,13 +42,17 @@ h4 {
 }
 p:hover {
    background-color: dodgerblue;
+   border: 3px solid darkblue;
+   font-weight: bold
 }
 a[href="https://dragonball.fandom.com/wiki/Dragon_Ball_Z"] {
   background-color: green;
   color: darkblue;
+  font-weight: bold
 }
 a[href="about-me.html"] {
   background-color: lightgreen;
   color: darkblue;
   border: 3px solid darkblue;
+  font-weight: bold
 }
