@@ -1,0 +1,51 @@
+body {
+  background-color: orange;
+}
+img {
+  margin:auto;
+  display:block;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  width: 25%;
+}
+h1 {
+  background-color: dodgerblue;
+  text-align: center;
+  border: 3px solid brown;
+}
+.important {
+  margin: auto;
+  width: 50%;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+h2 {
+  background-color: firebrick;
+  text-align: center;
+  border: 3px solid grey;
+  width: 10%;
+}
+h3:hover {
+  background-color: dodgerblue;
+}
+h4 {
+  text-align: center;
+  width: 5%;
+  background-color: brown;
+  border: 3px solid grey;
+}
+p:hover {
+   background-color: dodgerblue;
+}
+a[href="https://dragonball.fandom.com/wiki/Dragon_Ball_Z"] {
+  background-color: green;
+  color: darkblue;
+}
+a[href="about-me.html"] {
+  background-color: lightgreen;
+  color: darkblue;
+  border: 3px solid darkblue;
+}
