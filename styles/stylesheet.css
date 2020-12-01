@@ -1,58 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Fjalla+One&display=swap');
 body {
-  background-color: orange;
+  background-color: #B8860B;
 }
-img {
-  margin:auto;
-  display:block;
+#dragonball {
+  margin: auto;
+  display: block;
   border-style: solid;
   border-color: black;
   border-width: 3px;
   width: 25%;
 }
-h1 {
-  background-color: dodgerblue;
-  text-align: center;
-  border: 3px solid brown;
-}
 .important {
-  margin: auto;
-  width: 50%;
-  padding-top: 50px;
-  padding-right: 30px;
+  background-color:#B8860B;
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+  font-size: 50px;
+  color:#191970;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+article {
+  background-color: #B8860B;
+  text-align: center;
   padding-bottom: 50px;
-  padding-left: 80px;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
 }
-h2 {
-  background-color: firebrick;
+.images {
+  background-color: black;
   text-align: center;
-  border: 3px solid grey;
-  width: 10%;
+  color: white;
 }
-h3 {
-  background-color: firebrick;
+#special {
+  background-color: #B8860B;
+}
+.box {
+  background-color: #B8860B;
+  height: 900px;
+  width: 300px;
+  padding-top: 30px;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+.content {
+  display: flex;
+}
+footer {
+  clear: right;
+  background-color:black;
+  color:#FFF5EE;
   text-align: center;
-  border: 3px solid grey;
-  width: 10%;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: bold;
 }
-h4 {
-  text-align: center;
-  width: 5%;
-  background-color: brown;
-  border: 3px solid grey;
+nav {
+  margin-bottom: 100px;
+  margin-top: 30px;
 }
-p:hover {
-   background-color: dodgerblue;
-   border: 3px solid darkblue;
-   font-weight: bold
+#nav1 {
+  color:#20B2AA;
 }
-a[href="https://dragonball.fandom.com/wiki/Dragon_Ball_Z"] {
-  background-color: green;
-  color: darkblue;
-  font-weight: bold
-}
-a[href="about-me.html"] {
-  background-color: lightgreen;
-  color: darkblue;
-  border: 3px solid darkblue;
-  font-weight: bold
+#nav2 {
+  color:#20B2AA;
 }
