@@ -51,6 +51,7 @@ article {
   margin-bottom: 50px;
   text-align: center;
   padding-left: 20px;
+  position: static;
 }
 .content {
   display: flex;
