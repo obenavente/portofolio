@@ -37,9 +37,6 @@ article {
   padding-bottom: 50px;
   padding-top: 40px;
 }
-#special {
-  background-color: #B8860B;
-}
 .box {
   background-color: #B8860B;
   height: 900px;
@@ -51,7 +48,6 @@ article {
   margin-bottom: 50px;
   text-align: center;
   padding-left: 20px;
-  position: static;
 }
 .content {
   display: flex;
@@ -75,4 +71,26 @@ nav {
 }
 #nav2 {
   color:#20B2AA;
+}
+.box:hover {
+  transform:scale(1.5);
+  overflow: auto;
+  transition: transform 1s;
+}
+section img:hover {
+  transform: scale(1.5);
+  transition: transform 0.5s;
+}
+.box:hover:nth-child(odd) {
+  background-color:#F0FFFF;
+  padding: 5rem;
+}
+.box:hover:nth-child(even) {
+  background-color:#FAEBD7;
+  padding: 5rem;
+}
+article:hover {
+  background-color:#F0FFFF;
+  transition: 0.5s;
+  overflow: auto;
 }
