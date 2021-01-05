@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Fjalla+One&display=swap');
+body {
+  background-color: #B8860B;
+}
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  display: block;
+  margin: 1rem;
+}
+input[type=submit] {
+  background-color: SteelBlue;
+  width: 100px;
+}
+input {
+  border-radius: 15px;
+}
+textarea {
+  border-radius: 15px;
+}
+header {
+  background-color:black;
+  color: white;
+  font-family: 'Bree Serif', serif;
+  padding: 10px;
+  margin-bottom: 80px;
+}
+.grid-container {
+        display: grid;
+}
+.grid-item-1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        padding-left: 20px;
+}
+.grid-item-2 {
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        padding-right: 20px;
+      }
+.box {
+  height: 600px;
+  width: 650px;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 17px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin-bottom: 100px;
+  margin-left: 50%;
+}
+li {
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+}
+header nav a {
+  color: white;
+  font-family: 'Bree Serif', serif;
+  font-size: 27px;
+}
